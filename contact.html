@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0"/>
+      <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+      <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen, projection"/>
+      <link rel="stylesheet" href="css/personalizado.css" type="text/css"/>
+      <title>Materialze Sistema Rejillas</title>
+  </head>
+
+  <body>
+
+  <div class="nav-fixed">
+      <nav>
+        <div class="nav-wrapper blue darken-2">
+          <a href="#" class="brand-logo left"> Traveling forever</a>
+          <ul class="hide-on-med-and-down right">
+            <li><a href="index.html"><i class="material-icons left">reorder</i>Home</a></li>
+            <li><a href="#"><i class="material-icons left">search</i>Flights</a></li>
+            <li><a href="#"><i class="material-icons left">info</i>About</a></li>
+            <li class="active"><a href="contact.html"><i class="material-icons left">email</i>Contact us</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+
+<div class="container">
+    <div class="row formulario">
+      <h2 class="center-align black-text">Contact us</h2>
+      <div class="input-field col s12 l6">
+        <i class="material-icons prefix">person</i>
+        <input type="text" id="nombre" class="validate">
+        <label for="nombre">First Name</label>
+      </div>
+      <div class="input-field col s12 l6">
+        <i class="material-icons prefix">person</i>
+        <input type="text" id="lastName" class="validate">
+        <label for="text">Last name</label>
+      </div>
+      <div class="input-field col s12 l6">
+        <i class="material-icons prefix">email</i>
+        <input type="email" id="correo" class="validate">
+        <label for="correo" data-success="Correcto" data-error="Debes completar este campo"> Email </label>
+      </div>
+
+      <div class="input-field col s12 l6">
+        <i class="material-icons prefix">favorite</i>
+        <input type="text" id="destination" class="">
+        <label for="destination">Favorite Destination</label>
+      </div>
+
+      <div class="input-field col s12 l4">
+        <select class="browser-default">
+          <option value="" disabled selected>Chose One</option>
+          <option value="1" >Package </option>
+          <option value="2" >Only Flight </option>
+          <option value="3" >Hotel or Car Rental</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+    <a class="btn" onclick="Materialize.toast('Thanks for your message', 4000)">Send</a>
+  </div>
+</div>
+
+<footer class="page-footer blue lighten-1">
+     <div class="container ">
+       <div class="row">
+         <div class="col l6 s12">
+           <h5 class="white-text">Traveling forever</h5>
+           <p class="grey-text text-lighten-4">Our customers always prefer us for our prices and exellent service</p>
+         </div>
+         <div class="col l4 offset-l2 s12">
+           <h5 class="white-text">Remember</h5>
+           <ul>
+             <li><a class="grey-text text-lighten-3" href="contact.html">Contact us</a></li>
+             <li><a class="grey-text text-lighten-3" href="#!">Flights</a></li>
+             <li><a class="grey-text text-lighten-3" href="#!">About</a></li>
+             <li><a class="grey-text text-lighten-3" href="#!">Enjoy</a></li>
+           </ul>
+         </div>
+       </div>
+     </div>
+     <div class="footer-copyright">
+       <div class="container">
+       © 2017 Copyright Text
+       </div>
+     </div>
+   </footer>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+  </body>
+
+</html>
